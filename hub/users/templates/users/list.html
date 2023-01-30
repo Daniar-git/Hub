@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <h2>Users:</h2>
+    {%for user in users%}
+        <h5>Login:</h5>
+        {{user.login}}
+        <h5>Password:</h5>
+        {{users.password}}
+    {% endfor %}
+</body>
+</html>
